@@ -13,7 +13,7 @@ function Container(props) {
             <div className="container">
 
                 <ul id="myUL">
-
+<li>
                 {
                 dataPersonajes.map(function (personaje,idx) {
                     
@@ -23,6 +23,7 @@ function Container(props) {
                 })
                 
                     }
+                    </li>
                     
                 </ul>
             </div>

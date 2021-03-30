@@ -6,7 +6,7 @@ function Card(props) {
    
             <div className="card">
 
-                    <h2>{props.personajeCard.name}</h2>
+                    <a>{props.personajeCard.name}</a>
                     <img className='fotoPersonaje' src={props.personajeCard.image} alt='Not found'/>
                     <p>Status: {props.personajeCard.status}</p>
                     <p>Species: {props.personajeCard.species}</p>
