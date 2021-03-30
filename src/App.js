@@ -12,6 +12,7 @@ function App() {
     <div className="App">
        <Header /> 
        <Navbar/>
+       <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Todavía no anda el search, pero estamos en eso"/>
        <Container/>
        <Footer/>
     </div>

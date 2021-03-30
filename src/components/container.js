@@ -12,17 +12,19 @@ function Container(props) {
    
             <div className="container">
 
+                <ul id="myUL">
 
-               {
-               dataPersonajes.map(function (personaje,idx) {
+                {
+                dataPersonajes.map(function (personaje,idx) {
+                    
+                        return(
+                            <Card personajeCard={personaje} key={idx}/>
+                        )
+                })
                 
-                    return(
-                        <Card personajeCard={personaje} key={idx}/>
-                    )
-               })
-            
-                }
-
+                    }
+                    
+                </ul>
             </div>
    
     );

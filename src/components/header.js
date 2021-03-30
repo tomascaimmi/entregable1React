@@ -5,7 +5,7 @@ function Header() {
     return (
         <header className="header">
             <div className="header-logo">
-                <h1 className="logo"> Rick & Morty Characters </h1>
+                <img alt='Rick & Morty Characters' src='http://assets.stickpng.com/images/58f37720a4fa116215a9240f.png'/>
             </div>
         </header>
     );
